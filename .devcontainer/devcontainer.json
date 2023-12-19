@@ -1,4 +1,6 @@
 {
-	"image": "nvidia/cuda:12.3.1-base-ubuntu22.04",
+	"image": "nvidia/cuda:12.3.1-runtime-ubuntu22.04",
 	"dockerFile": "Dockerfile"
+	"runArgs": ["--gpus","all"],
+	"remoteUser": "vscode"
 }
