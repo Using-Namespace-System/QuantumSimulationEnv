@@ -1,4 +1,8 @@
 {
-	"dockerFile": "Dockerfile",
+	"build": { 
+		"context": "..",
+		"dockerfile": "Dockerfile"
+	},
 	"runArgs": ["--gpus","all"]
+	//postAttachCommand
 }
